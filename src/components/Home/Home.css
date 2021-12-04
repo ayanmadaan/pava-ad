@@ -111,8 +111,8 @@ img {
 
 .container {
   max-width: 968px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
+  /* margin-left: 5rem; */
+  /* margin-right: 1.5rem; */
 }
 
 .grid {
@@ -133,6 +133,10 @@ img {
 .home__header {
   position: relative;
 }
+
+/* .home__container {
+  margin-left: 5rem;
+} */
 
 .home__title {
   position: absolute;

@@ -13,23 +13,25 @@ function Home() {
 
           <div className="home__data">
             <div className="home__header">
-              <h1 className="home__title">On ear</h1>
-              <h2 className="home__subtitle">Beats 3</h2>
+              <h1 className="home__title">Automatic</h1>
+              <h2 className="home__subtitle">Cycle Lock</h2>
             </div>
 
             <div className="home__footer">
               <h3 className="home__title-description">Overview</h3>
               <p className="home__description">
-                Enjoy award-winning Beats sound with wireless listening freedom
-                and a sleek, streamlined design with comfortable padded
-                earphones, delivering first-rate playback.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries.
               </p>
               <a href="#" className="button button--flex">
                 <span className="button--flex">
                   <i className="ri-shopping-bag-line button__icon"></i> Add to
                   Bag
                 </span>
-                <span className="home__price">$299</span>
+                <span className="home__price">₹800</span>
               </a>
             </div>
           </div>
