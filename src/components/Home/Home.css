@@ -21,7 +21,7 @@
   --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
-  --biggest-font-size: 5rem;
+  --biggest-font-size: 7.5rem;
   --bigger-font-size: 3.5rem;
   --big-font-size: 2.5rem;
   --h2-font-size: 1.25rem;
@@ -47,9 +47,9 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --biggest-font-size: 7.5rem;
+    --biggest-font-size: 5rem;
     --bigger-font-size: 4.5rem;
-    --big-font-size: 4rem;
+    --big-font-size: 3rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
@@ -65,7 +65,7 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  /* margin: var(--header-height) 0 0 0; */
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
@@ -164,6 +164,7 @@ img {
 .home__description {
   margin-bottom: var(--mb-2-5);
   line-height: var(--text-line-height);
+  font-size: 0.8rem;
 }
 
 .home__price {
@@ -245,9 +246,15 @@ img {
     position: relative;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .home__header {
+    margin-right: 4rem;
+  }
+
   .home__img {
     top: -9rem;
-    left: 4rem;
+    margin-left: 0rem;
+    width: 350px;
   }
   .home__data {
     padding-top: 8rem;
@@ -255,7 +262,7 @@ img {
 }
 
 /* For large devices */
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -271,5 +278,19 @@ img {
   }
   .home__description {
     padding-right: 5rem;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  .home__title {
+    left: -2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .home__img {
+    width: 400px;
+    padding: 2rem;
+    margin-left: 1.2rem;
   }
 }

@@ -44,9 +44,9 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --biggest-font-size: 7.5rem;
+    --biggest-font-size: 5rem;
     --bigger-font-size: 4.5rem;
-    --big-font-size: 4rem;
+    --big-font-size: 3rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
@@ -213,4 +213,63 @@ img {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+@media screen and (max-width: 978px) {
+  .products__container {
+    grid-template-columns: none;
+    justify-content: center;
+  }
+}
+
+/* @media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 6rem 0 2rem;
+  }
+
+  .products__container {
+    grid-template-columns: repeat(3, 182px);
+    gap: 6rem 3rem;
+    padding-top: 5rem;
+  }
+  .products__card {
+    height: 152px;
+    padding: 0.85rem;
+  }
+  .products__img {
+    width: 95px;
+  }
+} */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home__img {
+    width: 300px;
+    top: -15rem;
+  }
+  .home__title {
+    top: -5rem;
+    left: 3.5rem;
+  }
+  .home__description {
+    padding-right: 5rem;
+  }
+  .sponsor__img {
+    width: 100px;
+  }
+  .discount__img {
+    width: 350px;
+  }
+  .footer__container {
+    padding-top: 3rem;
+  }
+  .footer__copy {
+    margin-top: 9rem;
+  }
 }

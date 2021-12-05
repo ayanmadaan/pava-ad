@@ -15,8 +15,12 @@ function Products() {
       delay: 400,
     });
 
-    sr.reveal(`.products__card`, { delay: 500, origin: "bottom" });
-    sr.reveal(`.products__img`, { delay: 700, origin: "top" });
+    sr.reveal(`.products__card`, {
+      delay: 500,
+
+      origin: "bottom",
+    });
+    sr.reveal(`.products__img`, { delay: 700, interval: 200, origin: "top" });
   });
 
   return (
@@ -72,7 +76,7 @@ function Products() {
             <div className="products__content">
               <img src={red} alt="" className="products__img" />
 
-              <h3 className="products__title">Red Black</h3>
+              <h3 className="products__title">Red</h3>
               <span className="products__price">₹800</span>
 
               <button className="button button--flex products__button">
@@ -114,7 +118,7 @@ function Products() {
             <div className="products__content">
               <img src={green} alt="" className="products__img" />
 
-              <h3 className="products__title">Night Black</h3>
+              <h3 className="products__title">Green</h3>
               <span className="products__price">₹800</span>
 
               <button className="button button--flex products__button">
@@ -156,7 +160,7 @@ function Products() {
             <div className="products__content">
               <img src={purple} alt="" className="products__img" />
 
-              <h3 className="products__title">Blue</h3>
+              <h3 className="products__title">Purple</h3>
               <span className="products__price">₹800</span>
 
               <button className="button button--flex products__button">
@@ -199,7 +203,7 @@ function Products() {
             <div className="products__content">
               <img src={pink} alt="" className="products__img" />
 
-              <h3 className="products__title">Twilight gray</h3>
+              <h3 className="products__title">Pink</h3>
               <span className="products__price">₹800</span>
 
               <button className="button button--flex products__button">
