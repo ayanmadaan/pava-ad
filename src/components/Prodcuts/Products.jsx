@@ -17,7 +17,6 @@ function Products() {
 
     sr.reveal(`.products__card`, {
       delay: 500,
-
       origin: "bottom",
     });
     sr.reveal(`.products__img`, { delay: 700, interval: 200, origin: "top" });

@@ -15,7 +15,7 @@ function Home() {
     sr.reveal(`.home__title`, { origin: "right", delay: 600 });
     sr.reveal(`.home__subtitle`, { origin: "left", delay: 600 });
     sr.reveal(`.home__footer`, { delay: 700 });
-    sr.reveal(`.investor__img`, { origin: "top", intervval: 100 });
+    sr.reveal(`.home__img`, { origin: "left", intervval: 100 });
   });
 
   return (
@@ -35,11 +35,12 @@ function Home() {
             <div className="home__footer">
               <h3 className="home__title-description">Overview</h3>
               <p className="home__description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries.
+                Lockomatic is the world's leading cycle security product. With
+                Lockomatic's built in GPS and Bluetooth enabled technology, you
+                will never have to worry about losing your cycle anymore. Our
+                proprietary technology also lets you change the pin, and alerts
+                you whenever someone tries to steal your ride. <br /> See, It's
+                more than just a lock.
               </p>
               <a href="#" className="button button--flex">
                 <span className="button--flex">

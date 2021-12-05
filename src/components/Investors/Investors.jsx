@@ -10,14 +10,14 @@ function Investors() {
   useEffect(() => {
     const sr = scrollreveal({
       distance: "60px",
-      duration: 2500,
+      duration: 800,
       delay: 400,
     });
 
-    sr.reveal(`.investor__img`, { delay: 900, origin: "right" });
-    sr.reveal(`.investor__img1`, { delay: 900, origin: "left" });
-    sr.reveal(`.investor__img2`, { delay: 900, origin: "top" });
-    sr.reveal(`.investor__img3`, { delay: 900, origin: "bottom" });
+    sr.reveal(`.investor__img`, { delay: 500, origin: "right" });
+    sr.reveal(`.investor__img1`, { delay: 500, origin: "left" });
+    sr.reveal(`.investor__img2`, { delay: 500, origin: "top" });
+    sr.reveal(`.investor__img3`, { delay: 500, origin: "bottom" });
   });
 
   return (
