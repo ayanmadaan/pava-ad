@@ -15,26 +15,26 @@ function Products() {
       delay: 400,
     });
 
-    sr.reveal(`.products__card`, { interval: 100, origin: "top" });
+    sr.reveal(`.products__card`, { delay: 500, origin: "bottom" });
+    sr.reveal(`.products__img`, { delay: 700, origin: "top" });
   });
 
   return (
     <div>
-      <section class="products section" id="products">
-        <h2 class="section__title section__title-gradient products__line">
+      <section className="products section" id="products">
+        <h2 className="section__title section__title-gradient products__line">
           Choose <br /> Your Style
         </h2>
 
-        <div class="products__container container grid">
-          <article class="products__card">
-            <div class="products__content">
-              <img src={black} alt="" class="products__img" />
+        <div className="products__container container grid">
+          <div className="products__card">
+            <img src={black} alt="" className="products__img" />
+            <div className="products__content">
+              <h3 className="products__title">Black</h3>
+              <span className="products__price">₹800</span>
 
-              <h3 class="products__title">Black</h3>
-              <span class="products__price">₹800</span>
-
-              <button class="button button--flex products__button">
-                <i class="ri-shopping-bag-line button__icon">
+              <button className="button button--flex products__button">
+                <i className="ri-shopping-bag-line button__icon">
                   <svg
                     width="20"
                     height="20"
@@ -67,16 +67,16 @@ function Products() {
                 </i>
               </button>
             </div>
-          </article>
-          <article class="products__card">
-            <div class="products__content">
-              <img src={red} alt="" class="products__img" />
+          </div>
+          <div className="products__card">
+            <div className="products__content">
+              <img src={red} alt="" className="products__img" />
 
-              <h3 class="products__title">Red Black</h3>
-              <span class="products__price">₹800</span>
+              <h3 className="products__title">Red Black</h3>
+              <span className="products__price">₹800</span>
 
-              <button class="button button--flex products__button">
-                <i class="ri-shopping-bag-line button__icon">
+              <button className="button button--flex products__button">
+                <i className="ri-shopping-bag-line button__icon">
                   <svg
                     width="20"
                     height="20"
@@ -109,16 +109,16 @@ function Products() {
                 </i>
               </button>
             </div>
-          </article>
-          <article class="products__card">
-            <div class="products__content">
-              <img src={green} alt="" class="products__img" />
+          </div>
+          <div className="products__card">
+            <div className="products__content">
+              <img src={green} alt="" className="products__img" />
 
-              <h3 class="products__title">Night Black</h3>
-              <span class="products__price">₹800</span>
+              <h3 className="products__title">Night Black</h3>
+              <span className="products__price">₹800</span>
 
-              <button class="button button--flex products__button">
-                <i class="ri-shopping-bag-line button__icon">
+              <button className="button button--flex products__button">
+                <i className="ri-shopping-bag-line button__icon">
                   <svg
                     width="20"
                     height="20"
@@ -151,16 +151,16 @@ function Products() {
                 </i>
               </button>
             </div>
-          </article>
-          <article class="products__card">
-            <div class="products__content">
-              <img src={purple} alt="" class="products__img" />
+          </div>
+          <div className="products__card">
+            <div className="products__content">
+              <img src={purple} alt="" className="products__img" />
 
-              <h3 class="products__title">Blue</h3>
-              <span class="products__price">₹800</span>
+              <h3 className="products__title">Blue</h3>
+              <span className="products__price">₹800</span>
 
-              <button class="button button--flex products__button">
-                <i class="ri-shopping-bag-line button__icon">
+              <button className="button button--flex products__button">
+                <i className="ri-shopping-bag-line button__icon">
                   <svg
                     width="20"
                     height="20"
@@ -193,17 +193,17 @@ function Products() {
                 </i>
               </button>
             </div>
-          </article>
+          </div>
 
-          <article class="products__card">
-            <div class="products__content">
-              <img src={pink} alt="" class="products__img" />
+          <div className="products__card">
+            <div className="products__content">
+              <img src={pink} alt="" className="products__img" />
 
-              <h3 class="products__title">Twilight gray</h3>
-              <span class="products__price">₹800</span>
+              <h3 className="products__title">Twilight gray</h3>
+              <span className="products__price">₹800</span>
 
-              <button class="button button--flex products__button">
-                <i class="ri-shopping-bag-line button__icon">
+              <button className="button button--flex products__button">
+                <i className="ri-shopping-bag-line button__icon">
                   <svg
                     width="20"
                     height="20"
@@ -236,7 +236,7 @@ function Products() {
                 </i>
               </button>
             </div>
-          </article>
+          </div>
         </div>
       </section>
     </div>

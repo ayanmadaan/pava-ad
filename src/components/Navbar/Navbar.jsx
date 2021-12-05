@@ -17,18 +17,18 @@ function Navbar() {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#specs" className="nav__link">
-                Specs
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#case" className="nav__link">
-                Case
+              <a href="#investors" className="nav__link">
+                Investors
               </a>
             </li>
             <li className="nav__item">
               <a href="#products" className="nav__link">
                 Products
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="#footer" className="nav__link">
+                About Us
               </a>
             </li>
           </ul>

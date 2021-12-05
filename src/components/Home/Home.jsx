@@ -12,9 +12,10 @@ function Home() {
     });
 
     sr.reveal(`.home__header, .section__title`, { delay: 600 });
+    sr.reveal(`.home__title`, { origin: "right", delay: 600 });
+    sr.reveal(`.home__subtitle`, { origin: "left", delay: 600 });
     sr.reveal(`.home__footer`, { delay: 700 });
     sr.reveal(`.investor__img`, { origin: "top", intervval: 100 });
-    sr.reveal(`.home__img`, { delay: 900, origin: "top" });
   });
 
   return (
