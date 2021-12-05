@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import image from "../../images/cyclelock_new.png";
+import scrollreveal from "scrollreveal";
 
 function Home() {
+  useEffect(() => {
+    const sr = scrollreveal({
+      distance: "60px",
+      duration: 2500,
+      delay: 400,
+    });
+
+    sr.reveal(`.home__header, .section__title`, { delay: 600 });
+    sr.reveal(`.home__footer`, { delay: 700 });
+    sr.reveal(`.investor__img`, { origin: "top", intervval: 100 });
+    sr.reveal(`.home__img`, { delay: 900, origin: "top" });
+  });
+
   return (
     <div className="main">
       <section className="home section" id="home">

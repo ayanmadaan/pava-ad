@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import Home from "./components/Home/Home";
 import Investors from "./components/Investors/Investors";
+import Products from "./components/Prodcuts/Products";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <Home />
       <Investors />
+      <Products />
+      <Footer />
     </div>
   );
 }
