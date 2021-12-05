@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/pava-ad/static/css/main.aab9dd6c.chunk.css",
+    "main.js": "/pava-ad/static/js/main.593835a2.chunk.js",
+    "main.js.map": "/pava-ad/static/js/main.593835a2.chunk.js.map",
+    "runtime-main.js": "/pava-ad/static/js/runtime-main.c0f52af6.js",
+    "runtime-main.js.map": "/pava-ad/static/js/runtime-main.c0f52af6.js.map",
+    "static/js/2.7e95b652.chunk.js": "/pava-ad/static/js/2.7e95b652.chunk.js",
+    "static/js/2.7e95b652.chunk.js.map": "/pava-ad/static/js/2.7e95b652.chunk.js.map",
+    "index.html": "/pava-ad/index.html",
+    "static/css/main.aab9dd6c.chunk.css.map": "/pava-ad/static/css/main.aab9dd6c.chunk.css.map",
+    "static/js/2.7e95b652.chunk.js.LICENSE.txt": "/pava-ad/static/js/2.7e95b652.chunk.js.LICENSE.txt",
+    "static/media/accel.5c5e4fa0.svg": "/pava-ad/static/media/accel.5c5e4fa0.svg",
+    "static/media/cyclelock_new.3c491f77.png": "/pava-ad/static/media/cyclelock_new.3c491f77.png",
+    "static/media/cyclelock_new_side.a844ae8e.png": "/pava-ad/static/media/cyclelock_new_side.a844ae8e.png",
+    "static/media/kalaari.dddfb44d.png": "/pava-ad/static/media/kalaari.dddfb44d.png",
+    "static/media/lockgreen.e23d9e5f.png": "/pava-ad/static/media/lockgreen.e23d9e5f.png",
+    "static/media/lockpink.c51396e0.png": "/pava-ad/static/media/lockpink.c51396e0.png",
+    "static/media/lockpurple.512e728b.png": "/pava-ad/static/media/lockpurple.512e728b.png",
+    "static/media/lockred.70835017.png": "/pava-ad/static/media/lockred.70835017.png",
+    "static/media/sequoia.de05bcb0.svg": "/pava-ad/static/media/sequoia.de05bcb0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0f52af6.js",
+    "static/js/2.7e95b652.chunk.js",
+    "static/css/main.aab9dd6c.chunk.css",
+    "static/js/main.593835a2.chunk.js"
+  ]
+}
